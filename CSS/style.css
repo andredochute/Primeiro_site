@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;700;800&display=swap');
+.cabecalho{
+    padding: 15px 0 15px 200px;
+    font-family: "montserrat";
+    display: flex;
+    column-gap: 90px;
+    font-weight: bold;
+    font-size: 15px;
+    align-items: center;
+
+}
+.botao{
+    background-color: #575EFC;
+    border: 0px;
+    border-radius: 10px;
+    width: 120px;
+    height: 60px;
+    font-size: 23px;
+    color: white;
+    font-family: "montserrat";
+    font-weight: bold;
+
+}
