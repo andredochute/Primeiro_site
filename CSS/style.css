@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;700;800&display=swap');
+
+a{
+    text-decoration: none;
+    color: black;
+}
 .cabecalho{
     padding: 15px 0 15px 200px;
     font-family: "montserrat";
@@ -51,6 +56,19 @@
 
 }
 .titulo{
+    font-family: "montserrat";
+    font-weight: bold;
+}
+.logo{
+display: flex;
+flex-direction: column;
+font-family: "montserrat";
+font-weight: bold;
+
+
+}
+.avg{
+    color: #575EFC;
     font-family: "montserrat";
     font-weight: bold;
 }
