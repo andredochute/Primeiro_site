@@ -62,6 +62,7 @@ a{
 .logo{
 display: flex;
 flex-direction: column;
+column-gap: 0%;
 font-family: "montserrat";
 font-weight: bold;
 
