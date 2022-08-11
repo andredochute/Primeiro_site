@@ -15,6 +15,9 @@ function calcular(){
         var soma = valor.value*5.15
         resultado.textContent = soma
 
+    }else{
+        var soma = valor.value*5.32
+        resultado.textContent = soma
     }
 
     
