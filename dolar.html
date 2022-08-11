@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="utf-8" />
+        <title>Dolar</title>
+        <link rel="stylesheet" href="css/dolar.css" />
+
+    </head>
+
+    <body class="fullscreen">
+
+<div class="container">
+            <h1 class="titulo">Converte os preços das passagem para real</h1>
+
+      
+            <div class="meio">
+                <label for="moeda">Escolha a moeda</label>
+
+                <select name="moeda" id="moeda">
+                  <option value="dolar">Dolar</option>
+                  <option value="euro">Euro</option>
+                </select>
+
+           <label for="valor">Coloque o valor</label><input type="valor" id="valor" name="valor">
+
+            <button id="botao" type="button" onclick="calcular()">Calcular</button>
+
+            <div><h1>Preço em real: <span id="resultado">0</span></h1></div>
+        </div></div>
+
+        <script src="moeda.js"></script>
+    </body>
+</html>
