@@ -1,4 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;700;800&display=swap');
 *{
     font-family: "montserrat";
+    font-weight: bold;
+}
+
+
+body{
+background-color: #07393C;
+}
+.card{
+    margin-top: 50px;
+    background-color: #1A5457;
+    align-items: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 500px; 
+    margin-left: auto;
+    margin-right: auto; 
+    box-shadow: 10px 10px 10px 0px #2C666E;
+    color: white;
+
+}
+.botoes_entra{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.entrar{
+    background-color: white;
+    font-size: 15px;
+    color: #07393C;
+    width: 250px;
+    height: 40px;
+    border: none;
+    border-radius: 7px;
+}
+.google{
+    margin-top: 5px;
+    color: white;
+    width: 250px;
+    height: 40px;
+    border: none;
+    border-radius: 7px; 
+}
+input{
+    border-radius: 7px;
+    height: 20px; 
+    border: none;
+}
+span{
+    color: #0A090C;
+}
+.esquecisenha{
+    color: #0A090C;
 }

@@ -3,12 +3,18 @@
     font-family: "montserrat";
 }
 body{
-    background-color: #D6E3FF;
+    background-color: #F0EDEE;
 }
 
 a{
     text-decoration: none;
     color: black;
+}
+h2:hover{
+   
+    transform: scale(1.06); 
+  
+    transition: 500ms;
 }
 .cabecalho{
     padding: 15px 0 15px 200px;
@@ -21,7 +27,7 @@ a{
 
 }
 .botao{
-    background-color: #575EFC;
+    background-color: #07393C;
     border: 0px;
     border-radius: 10px;
     width: 120px;
@@ -32,8 +38,15 @@ a{
     font-weight: bold;
 
 }
+.botao:hover{
+   
+    transform: scale(1.06); 
+    box-shadow: 0 5px 15px rgba(0,0,0,0.6);
+    transition: 500ms;
+}
+
 .container{
-    color:#575EFC;
+    color:#07393C;
     padding: 300px 0 15px 200px;
     font-family: "montserrat";
     font-weight: bold;
@@ -43,7 +56,7 @@ a{
     
 }
 .conferir{
-    background-color: black;
+    background-color: #2C666E;
     border: 0px;
     border-radius: 10px;
     width: 150px;
@@ -82,7 +95,7 @@ font-weight: bold;
 
 }
 .avg{
-    color: #575EFC;
+    color: #07393C;
     font-family: "montserrat";
     font-weight: bold;
 }

@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;700;800&display=swap');
 *{
     font-family: "montserrat";
+    
 }
 html, .fullscreen {
     display: flex;
@@ -8,6 +9,9 @@ html, .fullscreen {
     margin: 0;
     padding: 0;
     width: 100%;
+}
+body{
+    background-color: #90e0ef;
 }
 
 
