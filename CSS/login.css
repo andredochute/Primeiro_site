@@ -18,7 +18,7 @@ background-color: #07393C;
     width: 500px; 
     margin-left: auto;
     margin-right: auto; 
-    box-shadow: 10px 10px 10px 0px #2C666E;
+    box-shadow: 10px 3px 10px 0px #2C666E;
     color: white;
 
 }
@@ -37,6 +37,11 @@ background-color: #07393C;
     border: none;
     border-radius: 7px;
 }
+.entrar:hover{
+    transform: scale(1.06); 
+    box-shadow: 0 5px 15px rgba(0,0,0,0.6);
+    transition: 500ms;
+}
 .google{
     margin-top: 5px;
     color: white;
@@ -44,6 +49,11 @@ background-color: #07393C;
     height: 40px;
     border: none;
     border-radius: 7px; 
+}
+.google:hover{
+    transform: scale(1.06); 
+    box-shadow: 0 5px 15px rgba(0,0,0,0.6);
+    transition: 500ms;
 }
 input{
     border-radius: 7px;
@@ -53,6 +63,12 @@ input{
 span{
     color: #0A090C;
 }
+
 .esquecisenha{
     color: #0A090C;
+}
+.esquecisenha:hover{
+    transform: scale(1.06); 
+
+    transition: 500ms;
 }
