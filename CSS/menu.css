@@ -96,3 +96,20 @@ column-gap: 50px;
     display: flex;
     column-gap: 50px;
 }
+.passagem{
+    align-items: center;
+    background-color: black;
+    color: #F0EDEE;
+    font-weight: bold;
+    border: none;
+    border-radius: 7px;
+    height: 40px; 
+    width: 180px;
+    margin-bottom: 10px;
+
+}
+.passagem:hover{
+    transform: scale(1.06); 
+    box-shadow: 0 5px 15px rgba(0,0,0,0.6);
+    transition: 500ms;
+}
