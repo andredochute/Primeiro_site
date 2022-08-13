@@ -12,23 +12,25 @@
     <body class="fullscreen">
 
 <div class="container">
-            <h1 class="titulo">Converte os preços das passagem para real</h1>
+
+    <div class="card">
+            <h1 class="titulo">Converte os preços </h1>
 
       
             <div class="meio">
                 <label for="moeda">Escolha a moeda</label>
 
-                <select name="moeda" id="moeda">
-                  <option value="dolar">Dolar</option>
-                  <option value="euro">Euro</option>
+                <select class="select" name="moeda" id="moeda">
+                  <option value="dolar">$ - Dólar</option>
+                  <option value="euro">$ - Euro</option>
                 </select>
 
-           <label for="valor">Coloque o valor</label><input type="valor" id="valor" name="valor">
+           <label for="valor">Valor a ser convertido</label><input class="valor" type="valor" id="valor" name="valor">
 
-            <button id="botao" type="button" onclick="calcular()">Calcular</button>
+            <button class="botao" type="button" onclick="calcular()">Calcular</button>
 
-            <div><h1>Preço em real: <span id="resultado">0</span></h1></div>
-        </div></div>
+            <div><h1>Reais: <span id="resultado">0</span></h1></div>
+        </div></div></div>
 
         <script src="moeda.js"></script>
     </body>
